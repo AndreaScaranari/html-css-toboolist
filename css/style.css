@@ -76,13 +76,12 @@ h1{
 h2{
     margin-bottom: 10px;
 }
-/* da finire le icone a sinistra */
-/* faccio prima i tag a destra */
 
 sub > span{
     color: white;
     border-radius: 10px;
     padding: 5px;
+    font-size: 0.5rem;
 }
 
 .blue{
