@@ -13,10 +13,10 @@ header{
     padding:10px;
     line-height: 100%;
     align-items: center;
+    margin-bottom: 30px;
 }
 
 header > img{
-    align-items: center;
     vertical-align: middle;
 }
 
@@ -27,3 +27,31 @@ h1{
     font-style: bold;
 }
 
+.container{
+    width: 60%;
+    margin: 0 auto;
+}
+
+#add-new{
+    background-color: white;
+    padding: 10px;
+    padding-left: 30px;
+    border-radius: 5px;
+    margin-bottom: 2px;
+}
+
+#add-new button{
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.button-add-task{
+    background-color: blue;
+    color: white;
+
+}
+
+.button-add-section{
+    background-color: rgb(224, 224, 224);
+    color: grey;
+}
