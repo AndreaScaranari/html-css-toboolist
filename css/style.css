@@ -77,6 +77,14 @@ h2{
     margin-bottom: 10px;
 }
 
+.scrolldown{
+font-size: 0.9rem;
+}
+
+li{
+    list-style: none;
+}
+
 li > span{
     color: white;
     border-radius: 10px;
