@@ -73,7 +73,38 @@ h1{
     line-height: 30px;
 }
 
+h2{
+    margin-bottom: 10px;
+}
 /* da finire le icone a sinistra */
 /* faccio prima i tag a destra */
 
+sub > span{
+    color: white;
+    border-radius: 10px;
+    padding: 5px;
+}
 
+.blue{
+    background-color: #45abea;
+}
+
+.purple{
+    background-color: #9c72e4;
+}
+
+.greener{
+    background-color: #64c0a9;
+}
+
+.orange{
+    background-color: #f29e33;
+}
+
+.pink{
+    background-color: #d863a1;
+}
+
+.green{
+    background-color: #b0c926;
+}
