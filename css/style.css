@@ -81,8 +81,30 @@ h2{
 font-size: 0.9rem;
 }
 
-li{
+ul{
     list-style: none;
+    padding-left: 0;
+}
+
+
+.task-complete::before {
+    content: '✓';
+    color: green;
+    font-size: 0.7rem;
+    margin-right: 8px;
+    border-radius: 50%;
+    border: 1px solid green;
+    padding: 2px;
+}
+
+.task-tbd::before {
+    content: "✗";
+    color: red;
+    font-size: 0.7rem;
+    margin-right: 8px;
+    border-radius: 50%;
+    border: 1px solid red;
+    padding: 2px;
 }
 
 li > span{
