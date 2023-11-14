@@ -77,7 +77,7 @@ h2{
     margin-bottom: 10px;
 }
 
-sub > span{
+li > span{
     color: white;
     border-radius: 10px;
     padding: 5px;
