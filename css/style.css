@@ -1,3 +1,4 @@
+/* Generic */
 *{
     margin:0;
     padding:0;
@@ -9,11 +10,10 @@ body{
     background-color: #f6f8f9;
 }
 
+/* Header */
 header{
     background-color: white;
     padding:10px;
-    line-height: 100%;
-    align-items: center;
     margin-bottom: 30px;
 }
 
@@ -28,6 +28,7 @@ h1{
     font-weight: 900;
 }
 
+/* main structure */
 .container{
     width: 60%;
     margin: 0 auto;
@@ -53,7 +54,6 @@ h1{
     background-color: #1e90ff;
     color: white;
     border-color: #1e90ff;
-    
 }
 
 .button-add-section{
@@ -61,6 +61,7 @@ h1{
     color: grey;
 }
 
+/* your task area */
 #your-tasks{
     background-color: white;
     border-radius: 5px;
@@ -85,7 +86,6 @@ ul{
     list-style: none;
     padding-left: 0;
 }
-
 
 .task-complete::before {
     content: '✓';
