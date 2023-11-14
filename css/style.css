@@ -67,3 +67,13 @@ h1{
     padding-top: 30px;
     padding-left: 30px;
 }
+
+#your-tasks > div{
+    margin-bottom: 20px;
+    line-height: 30px;
+}
+
+/* da finire le icone a sinistra */
+/* faccio prima i tag a destra */
+
+
