@@ -95,34 +95,26 @@ ul{
     padding-left: 0;
 }
 
-.task-blank
-
-.task-complete::before {
-    content: '✓';
-    color: green;
+.task::before{
     font-size: 0.7rem;
     margin-right: 8px;
     display:inline-block;
     width: 12px;
     line-height: 12px;
     border-radius: 50%;
-    border: 1px solid green;
+    border: 1px solid currentColor;
     padding: 1px;
     text-align: center;
 }
 
-.task-tbd::before {
+.task.task-complete::before {
+    content: '✓';
+    color: green;  
+}
+
+.task.task-tbd::before {
     content: "✗";
     color: red;
-    font-size: 0.7rem;
-    margin-right: 8px;
-    display:inline-block;
-    width: 12px;
-    line-height: 12px;
-    border-radius: 50%;
-    border: 1px solid red;
-    padding: 1px;
-    text-align: center;
 }
 
 .blue{
