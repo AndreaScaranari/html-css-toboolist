@@ -3,11 +3,35 @@
     margin:0;
     padding:0;
     box-sizing: border-box;
-    font-family: Arial, sans-serif;
 }
 
 body{
     background-color: #f6f8f9;
+    font-family: Arial, sans-serif;
+}
+
+/* Utils */
+
+#add-new > button{
+    padding: 5px;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    padding: 7px 15px;
+    cursor:pointer;
+}
+
+li > span{
+    color: white;
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 0.5rem;
+    vertical-align: middle;
+}
+
+.container{
+    width: 60%;
+    margin: 0 auto;
 }
 
 /* Header */
@@ -29,10 +53,6 @@ h1{
 }
 
 /* main structure */
-.container{
-    width: 60%;
-    margin: 0 auto;
-}
 
 #add-new{
     background-color: white;
@@ -40,14 +60,6 @@ h1{
     padding-left: 30px;
     border-radius: 5px;
     margin-bottom: 2px;
-}
-
-#add-new > button{
-    padding: 5px;
-    border-radius: 5px;
-    border-style: solid;
-    border-width: 1px;
-    padding: 7px 15px;
 }
 
 .button-add-task{
@@ -78,14 +90,12 @@ h2{
     margin-bottom: 10px;
 }
 
-.scrolldown{
-font-size: 0.9rem;
-}
-
 ul{
     list-style: none;
     padding-left: 0;
 }
+
+.task-blank
 
 .task-complete::before {
     content: '✓';
@@ -113,13 +123,6 @@ ul{
     border: 1px solid red;
     padding: 1px;
     text-align: center;
-}
-
-li > span{
-    color: white;
-    border-radius: 10px;
-    padding: 5px;
-    font-size: 0.5rem;
 }
 
 .blue{
